@@ -1,0 +1,53 @@
+import type { Product } from "@/types/product";
+
+export const productsMock: Product[] = [
+  {
+    id: 1,
+    name: "Tractor John Deere 5M",
+    category: "Tractores",
+    type: "both",
+    salePrice: 45000,
+    rentPrice: 150,
+    status: "disponible",
+    description:
+      "Tractor seminuevo, 120hp, transmisión powerquad, cabina climatizada.",
+    image: "http://static.photos/agriculture/640x360/1",
+    date: "2024-01-15",
+  },
+  {
+    id: 2,
+    name: "Cosechadora New Holland TC57",
+    category: "Cosechadoras",
+    type: "sale",
+    salePrice: 89000,
+    rentPrice: 0,
+    status: "vendido",
+    description: "Cosechadora de granos, motor Fiat, 25 pies de plataforma.",
+    image: "http://static.photos/agriculture/640x360/2",
+    date: "2024-01-10",
+  },
+  {
+    id: 3,
+    name: "Sembradora Apache 27000",
+    category: "Sembradoras",
+    type: "rent",
+    salePrice: 0,
+    rentPrice: 80,
+    status: "alquilado",
+    description: "Sembradora de siembra directa, 27 líneas, monodisco.",
+    image: "http://static.photos/agriculture/640x360/3",
+    date: "2024-01-20",
+  },
+  {
+    id: 4,
+    name: "Semillas de Soja RR2",
+    category: "Semillas",
+    type: "sale",
+    salePrice: 120,
+    rentPrice: 0,
+    status: "disponible",
+    description: "Semillas de soja transgénica Roundup Ready 2, bolsa de 50kg.",
+    image: "http://static.photos/agriculture/640x360/4",
+    date: "2024-01-22",
+  },
+];
